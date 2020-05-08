@@ -58,7 +58,7 @@
                     ruitech@riarauniversity.ac.ke
                 </div>
 
-                <div class="col-12 col-md-9 col-xl-8 main-menu">
+                <div class="col-12 col-md-12 col-xl-12 main-menu">
                     <nav class="site-navigation position-relative text-right" role="navigation">
 
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
@@ -68,6 +68,7 @@
                             <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
                             <li><a href="#blog-section" class="nav-link">Blog</a></li>
                             <li><a href="#contact-section" class="nav-link">Newsletter</a></li>
+                            <li><a href="{{url('login')}}" class="nav-link">Login</a></li>
                         </ul>
                     </nav>
                 </div>
