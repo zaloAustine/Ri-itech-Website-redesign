@@ -36,7 +36,7 @@
     </div>
 </div>
 
-<div class="site-wrap"  id="home-section">
+<div class="site-wrap"  id="home-section"  style="background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')">
 
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
@@ -94,14 +94,14 @@
 
 
                         <div class="col-lg-6 mr-auto">
-                            <h1>Welcome</h1>
-                            <h4 class="b-w3ltxt text-capitalize mt-md-2">Get Inspired By Technology</h4>
-                            <p class="w3ls_pvt-title my-3">Information technology and business are becoming inextricably interwoven.
+                            <h1 class="text-primary">Welcome</h1>
+                            <h4 class="b-w3ltxt text-capitalize mt-md-2 text-white">Get Inspired By Technology</h4>
+                            <p class="w3ls_pvt-title my-3 text-white">Information technology and business are becoming inextricably interwoven.
                                 I don’t think anybody can talk meaningfully about one without the talking about the other.
                                 <b>“Bill Gates”.</b></p>
 
-                            <h4 class="b-w3ltxt text-capitalize mt-md-2">OBJECTIVES</h4>
-                            <p class="mt-4">
+                            <h4 class="b-w3ltxt text-capitalize mt-md-2 text-primary ">OBJECTIVES</h4>
+                            <p class="mt-4 text-white">
                                 As RU i-Tech we value innovation, teamwork, honesty, equality, leadership, respect, integrity of services and technology. We pride ourselves to working as a team to achieve success.
                                 We push boundaries by letting each member freely expressing their innovative idea/ projects through monthly innovation and helping each other on venturing those ideas.
                                 We provide better environment for networking and learning by inviting experts from different tech industries for a talk or bootcamp.
@@ -597,6 +597,19 @@
 
 
 <script src="js/main.js"></script>
+
+
+<style>
+
+    #home-section{
+        background: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80') top center no-repeat;
+    }
+
+    .Rutitle{
+        color: white;
+    }
+
+</style>
 
 </body>
 </html>
