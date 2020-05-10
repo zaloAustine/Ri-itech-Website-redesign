@@ -499,47 +499,6 @@
             <div class="col-lg-7 mb-5">
 
 
-
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-7 mb-5">
-
-
-
-                        <form action="#" class="p-5 bg-white">
-
-                            <h2 class="h4 text-black mb-5">Subscribe Form</h2>
-
-                            <div class="row form-group">
-                                <div class="col-md-6 mb-3 mb-md-0">
-                                    <label class="text-black" for="fname">First Name</label>
-                                    <input type="text" id="fname" class="form-control rounded-0">
-                                </div>
-                                <div class="col-md-6">
-                                    <label class="text-black" for="lname">Last Name</label>
-                                    <input type="text" id="lname" class="form-control rounded-0">
-                                </div>
-                            </div>
-
-                            <div class="row form-group">
-
-                                <div class="col-md-12">
-                                    <label class="text-black" for="email">Email</label>
-                                    <input type="email" id="email" class="form-control rounded-0">
-                                </div>
-                            </div>
-
-
-                            <div class="row form-group">
-                                <div class="col-md-12">
-                                    <input type="submit" value="Subscribe" class="btn btn-primary mr-2 mb-2">
-                                </div>
-                            </div>
-
-
-                        </form>
-                    </div>            </div>
-
         </div>
 
 
