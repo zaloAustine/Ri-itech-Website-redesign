@@ -24,7 +24,12 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <div class="col-6 col-md-3 col-xl-4  d-block">
+                        <h1 class="mb-0 site-logo"><a href="/" class="text-black h2 mb-0">RU-ITECH<span class="text-primary">.</span> </a></h1>
+                        ruitech@riarauniversity.ac.ke
+
+                    </div>
+
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

@@ -9,21 +9,23 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/jquery-ui.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/jquery-ui.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.min.css') }}">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-datepicker.css') }}">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('fonts/flaticon/font/flaticon.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -36,7 +38,7 @@
     </div>
 </div>
 
-<div class="site-wrap"  id="home-section"  style="background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80')">
+<div class="site-wrap"  id="home-section"  style="background-image: url('https://previews.123rf.com/images/new7ducks/new7ducks1701/new7ducks170100030/68453664-abstract-white-circle-digital-technology-background-futuristic-structure-elements-concept-background.jpg')">
 
     <div class="site-mobile-menu site-navbar-target">
         <div class="site-mobile-menu-header">
@@ -54,27 +56,31 @@
             <div class="row align-items-center">
 
                 <div class="col-6 col-md-3 col-xl-4  d-block">
-                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">RU-ITECH<span class="text-primary">.</span> </a></h1>
+                    <h1 class="mb-0 site-logo"><a href="/" class="text-black h2 mb-0">RU-ITECH<span class="text-primary">.</span> </a></h1>
                     ruitech@riarauniversity.ac.ke
+
                 </div>
 
-                <div class="col-12 col-md-12 col-xl-12 main-menu">
+
+                <div class="col-12 col-md-9 col-xl-8 main-menu">
+
                     <nav class="site-navigation position-relative text-right" role="navigation">
 
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
                             <li><a href="#home-section" class="nav-link">Home</a></li>
                             <li><a href="#features-section" class="nav-link">Our Services</a></li>
-                                <a href="#about-section" class="nav-link">About Us</a>
+                            <li><a href="#project-section" class="nav-link">Projects</a></li>
+                            <a href="#about-section" class="nav-link">About Us</a>
                             <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
                             <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                            <li><a href="#contact-section" class="nav-link">Newsletter</a></li>
-                            <li><a href="{{url('login')}}" class="nav-link">Login</a></li>
+                            <li><a href="#join-section" class="nav-link">Newsletter</a></li>
+
                         </ul>
                     </nav>
                 </div>
 
 
-                <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
+                <div class="col-6 col-md-12 d-inline-block d-lg-none ml-md-0" ><a href="#" class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a></div>
 
             </div>
         </div>
@@ -88,27 +94,26 @@
 
                 <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
 
-                    <img src="https://ruitech.co.ke/images/ruitech.png"  alt="Image" class="img-fluid img-absolute">
 
                     <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://ruitech.co.ke/images/ruitech.png"  alt="Image" class="img-fluid img-absolute">
 
 
-                        <div class="col-lg-6 mr-auto">
-                            <h1 class="text-primary">Welcome</h1>
-                            <h4 class="b-w3ltxt text-capitalize mt-md-2 text-white">Get Inspired By Technology</h4>
-                            <p class="w3ls_pvt-title my-3 text-white">Information technology and business are becoming inextricably interwoven.
+                        <div class="col-md-8 mr-auto">
+                            <h4 class="b-w3ltxt text-capitalize mt-md-2 text-primary">Get Inspired By Technology</h4>
+                            <p class="w3ls_pvt-title my-3 text-black">Information technology and business are becoming inextricably interwoven.
                                 I don’t think anybody can talk meaningfully about one without the talking about the other.
                                 <b>“Bill Gates”.</b></p>
 
                             <h4 class="b-w3ltxt text-capitalize mt-md-2 text-primary ">OBJECTIVES</h4>
-                            <p class="mt-4 text-white">
+                            <p class="mt-4 text-black">
                                 As RU i-Tech we value innovation, teamwork, honesty, equality, leadership, respect, integrity of services and technology. We pride ourselves to working as a team to achieve success.
                                 We push boundaries by letting each member freely expressing their innovative idea/ projects through monthly innovation and helping each other on venturing those ideas.
                                 We provide better environment for networking and learning by inviting experts from different tech industries for a talk or bootcamp.
                             </p>
 
                             <div>
-                                <a href="#join-section" class="btn btn-primary mr-2 mb-2">Join Us</a>
+                              <a href="{{url('register')}}" class="btn btn-primary mr-2 mb-2">Join Us</a>
 
 
                             </div>
@@ -191,9 +196,85 @@
     </div>
 
 
+<div class="site-section" id="project-section">
+    <div class="container">
+        <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
+            <div class="col-7 text-center  mb-5">
+                <h2 class="section-title">Projects</h2>
+            </div>
+        </div>
+        <div class="row align-items-stretch">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+
+                <div class="unit-4 d-block">
+                    <div class="unit-4-icon mb-3">
+                        <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+                    </div>
+                    <div>
+
+                        <div class="our-services-text">
+                            <h4>Projects 103</h4>
+                            <p>As a club, we provide tech clinic service per semester where we are allow both students</p>
+                            <img src="images/do-ui-kit-1-6-overview.jpg"  alt="Image" class="img-fluid">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+
+                <div class="unit-4 d-block">
+                    <div class="unit-4-icon mb-3">
+                        <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+                    </div>
+                    <div>
+
+                        <div class="our-services-text">
+                            <h4>Projects 102</h4>
+                            <p>As a club, we provide tech clinic service per semester where we are allow both students</p>
+                            <img src="images/do_ui_kit_hero_floating_devices-2x.png"  alt="Image" class="img-fluid">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+
+                <div class="unit-4 d-block">
+                    <div class="unit-4-icon mb-3">
+                        <span class="icon-wrap"><span class="text-primary icon-autorenew"></span></span>
+                    </div>
+                    <div>
+
+                        <div class="our-services-text">
+                            <h4>Projects 101</h4>
+                            <p>As a club, we provide tech clinic service per semester where we are allow both students</p>
+                            <img src="images/do_ui_kit_download_cta_floating_devices-2x.png"  alt="Image" class="img-fluid">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
 <div class="col-7 text-center  mb-5">
     <h2 class="section-title">Why Choose Us</h2>
-    <p class="lead">Because we focus on results. For us, it’s all about what adds value for you and your business. Above all, we want our work to work for you.</p>
+    <p class="lead">RUi-Tech gives members a real platform where they can horn skills learnt in books and lecture rooms</p>
 </div>
 
     <div class="feature-big">
@@ -268,11 +349,7 @@
             <div class="row mb-5 justify-content-center text-center"  data-aos="fade-up">
                 <div class="col-7 text-center  mb-5">
                     <h2 class="section-title">Our Team</h2>
-                    <p class="mt-4"><b> OBJECTIVES </b></br>
-                        As RU i-Tech we value innovation, teamwork, honesty, equality, leadership, respect, integrity of services and technology. We pride ourselves to working as a team to achieve success.
-                        We push boundaries by letting each member freely expressing their innovative idea/ projects through monthly innovation and helping each other on venturing those ideas.
-                        We provide better environment for networking and learning by inviting experts from different tech industries for a talk or bootcamp.
-                    </p>                </div>
+
             </div>
 
             <div class="row">
@@ -420,7 +497,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <h2 class="section-title mb-3 text-white">Join Us Form</h2>
+                    <h2 class="section-title mb-3 text-white">Subscribe to news Letter</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -430,16 +507,12 @@
 
                     <form action="#" class="p-5 bg-white">
 
-                        <h2 class="h4 text-black mb-5">Join Us Form</h2>
+                        <h2 class="h4 text-black mb-5">Subscribe to news Letter</h2>
 
                         <div class="row form-group">
                             <div class="col-md-6 mb-3 mb-md-0">
-                                <label class="text-black" for="fname">First Name</label>
+                                <label class="text-black" for="fname">Name</label>
                                 <input type="text" id="fname" class="form-control rounded-0">
-                            </div>
-                            <div class="col-md-6">
-                                <label class="text-black" for="lname">Last Name</label>
-                                <input type="text" id="lname" class="form-control rounded-0">
                             </div>
                         </div>
 
@@ -452,23 +525,8 @@
                         </div>
 
                         <div class="row form-group">
-
                             <div class="col-md-12">
-                                <label class="text-black" for="subject">Subject</label>
-                                <input type="subject" id="subject" class="form-control rounded-0">
-                            </div>
-                        </div>
-
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <label class="text-black" for="message">Message</label>
-                                <textarea name="message" id="message" cols="30" rows="7" class="form-control rounded-0" placeholder="Leave your message here..."></textarea>
-                            </div>
-                        </div>
-
-                        <div class="row form-group">
-                            <div class="col-md-12">
-                                <input type="submit" value="Join" class="btn btn-primary mr-2 mb-2">
+                                <input type="submit" value="Subscribe" class="btn btn-primary mr-2 mb-2">
                             </div>
                         </div>
 
@@ -492,7 +550,6 @@
     <div class="container">
         <div class="row mb-5">
             <div class="col-12 text-center">
-                <h2 class="section-title mb-3 text-white">Contact Us</h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -569,6 +626,6 @@
     }
 
 </style>
-
+    </div>
 </body>
 </html>

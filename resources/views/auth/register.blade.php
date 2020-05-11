@@ -44,9 +44,16 @@
                             <label for="password" class="col-md-4 col-form-label text-md-right">School</label>
                             <div class="col-md-6">
                                 <div class="dropdown">
-                                    <button type="button" class="col-md-12 dropdown-toggle" data-toggle="dropdown">
-                                        Choose School
-                                    </button>
+                                    <div class="uk-margin-medium-bottom">
+                                        <div class="uk-form-controls">
+                                            <div class="form-group">
+
+                                                <select class="uk-input uk-form-large uk-border-rounded" name="platform_id" id="platform">
+{{--                                                    <option value="{{$platform ?? ''->id}}" selected>{{$platform ?? ''->name}}</option>--}}
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="dropdown-menu">
                                         <a class="dropdown-item" href="#">Link 1</a>
                                         <a class="dropdown-item" href="#">Link 2</a>
